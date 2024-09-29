@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css-link -->
+    <link rel="stylesheet" href="volunteer-style.css" />
+    <!-- css-link -->
+    <!-- Bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap css link -->
+    <!-- Font link(Lato) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font link(Lato) -->
+    <title>Volunteer-Page</title>
+  </head>
+  <body>
+    <!-- all-content-of-volunteer-page -->
+    <div class="all-volunteer-content">
+      <!-- navbar-component -->
+      <div class="container-fluid main-nav fixed-top">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand position-relative" href="#">
+              <img
+                src="./Logo/Sakhu Cancer Foundation (2)_page-0001-01 1.png"
+                alt=""
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span><img src="./assets/Frame.png" alt="" /></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto me-4 d-flex gap-4">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Programs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >News & Events</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Resourses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Volunteer</a>
+                </li>
+                <form class="d-flex" role="search">
+                  <button class="nav-donate" type="submit">Donate</button>
+                </form>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar-component -->
+      <!-- volunteer-component -->
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col">
+            <p class="fill-heading">Fill The Form</p>
+            <form class="form-inputs">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="Mobile No"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  type="text"
+                  class="form-control address"
+                  id="exampleInputPassword1"
+                  placeholder="Address"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Current Occupation"
+                />
+              </div>
+              <div class="mb-1 mt-3">
+                <p class="area-heading">Area you would like to work in</p>
+              </div>
+              <div class="mb-3 form-check-custom">
+                <input
+                  type="checkbox"
+                  class="form-check-input-custom"
+                  id="exampleCheck1"
+                />
+                <label
+                  class="form-check-label form-check-label-color"
+                  for="exampleCheck1"
+                  >In Hospital Counseling of patients</label
+                >
+              </div>
+              <div class="mb-3 form-check-custom">
+                <input
+                  type="checkbox"
+                  class="form-check-input-custom"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >In Hospital Counseling of families</label
+                >
+              </div>
+              <div class="mb-3 form-check-custom">
+                <input
+                  type="checkbox"
+                  class="form-check-input-custom"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Providing temporary home stay for patient and families</label
+                >
+              </div>
+              <div class="mb-3 form-check-custom">
+                <input
+                  type="checkbox"
+                  class="form-check-input-custom"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Community affairs</label
+                >
+              </div>
+              <div class="mb-3 form-check-custom">
+                <input
+                  type="checkbox"
+                  class="form-check-input-custom"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Designing communications</label
+                >
+              </div>
+              <div class="mb-3 form-check-custom">
+                <input
+                  type="checkbox"
+                  class="form-check-input-custom"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Conducting awareness meetings</label
+                >
+              </div>
+              <div class="mb-3 form-check-custom">
+                <input
+                  type="checkbox"
+                  class="form-check-input-custom"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Resource mobilization</label
+                >
+              </div>
+              <div class="mb-1 mt-3">
+                <p class="area-heading">Time you can put in a week</p>
+              </div>
+              <div class="mb-3 form-check-custom">
+                <input
+                  type="checkbox"
+                  class="form-check-input-custom"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label daily" for="exampleCheck1"
+                  >Daily</label
+                >
+              </div>
+              <div class="checkboxes-day d-flex">
+                <div class="mb-3 form-check-custom d-flex align-items-center">
+                  <input type="checkbox" class="form-check-input-custom" />
+                  <label
+                    class="form-check-label-custom select-day"
+                    for="exampleCheck1"
+                    >Select Day</label
+                  >
+                </div>
+                <div class="mb-3 form-check-custom d-flex align-items-center">
+                  <input
+                    type="checkbox"
+                    class="form-check-input-custom"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label-custom" for="exampleCheck1"
+                    >Monday</label
+                  >
+                </div>
+                <div class="mb-3 form-check-custom d-flex align-items-center">
+                  <input
+                    type="checkbox"
+                    class="form-check-input-custom"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label-custom" for="exampleCheck1"
+                    >Tuesday</label
+                  >
+                </div>
+                <div class="mb-3 form-check-custom d-flex align-items-center">
+                  <input
+                    type="checkbox"
+                    class="form-check-input-custom"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label-custom" for="exampleCheck1"
+                    >Wednesday</label
+                  >
+                </div>
+                <div class="mb-3 form-check-custom d-flex align-items-center">
+                  <input
+                    type="checkbox"
+                    class="form-check-input-custom"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label-custom" for="exampleCheck1"
+                    >Thursday</label
+                  >
+                </div>
+                <div class="mb-3 form-check-custom d-flex align-items-center">
+                  <input
+                    type="checkbox"
+                    class="form-check-input-custom"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label-custom" for="exampleCheck1"
+                    >Friday</label
+                  >
+                </div>
+                <div class="mb-3 form-check-custom d-flex align-items-center">
+                  <input
+                    type="checkbox"
+                    class="form-check-input-custom"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label-custom" for="exampleCheck1"
+                    >Saturday</label
+                  >
+                </div>
+                <div class="mb-3 form-check-custom d-flex align-items-center">
+                  <input
+                    type="checkbox"
+                    class="form-check-input-custom"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label-custom" for="exampleCheck1"
+                    >Sunday</label
+                  >
+                </div>
+              </div>
+              <div class="from-to d-flex gap-4">
+                <div class="from">
+                  <p>From</p>
+                  <div class="from-input-boxes d-flex gap-2">
+                    <input type="number" class="from-input" />
+                    <div class="dropdown">
+                      <button
+                        class="dropdown-toggle mt-1"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        AM
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">AM</a></li>
+                        <li><a class="dropdown-item" href="#">PM</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="to">
+                  <p>To</p>
+                  <div class="to-input-boxes d-flex gap-2">
+                    <input type="number" class="to-input" />
+                    <div class="dropdown">
+                      <button
+                        class="dropdown-toggle mt-1"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        AM
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">AM</a></li>
+                        <li><a class="dropdown-item" href="#">PM</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3 mt-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Numbers Of Hours In Day"
+                />
+              </div>
+              <div class="city-would-like d-flex gap-2">
+                <label> City would you like </label>
+                <div class="dropdown">
+                  <button
+                    class="dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Sambhajinagar
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Pune</a></li>
+                    <li><a class="dropdown-item" href="#">Ahmednagar</a></li>
+                  </ul>
+                </div>
+              </div>
+              <button type="submit" class="volunteer-send-btn mt-5">
+                Send
+              </button>
+            </form>
+          </div>
+          <div class="col">
+            <div class="v-images z-0">
+              <div class="col volunteer-img1 mt-5">
+                <img class="v-img" src="./assets/2148638036.png" alt="" />
+              </div>
+              <div class="col volunteer-img1 mt-5">
+                <img class="v-img" src="./assets/1806.png" alt="" />
+              </div>
+              <div class="col volunteer-img1 mt-5">
+                <img class="v-img" src="./assets/1807.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- volunteer-component -->
+      <!-- Footer-image-component -->
+      <div class="row-fluid">
+        <div class="about">
+          <div class="about-content p-5">
+            <div class="col col-md-12 text-center">
+              <div class="footer-image-text">
+                <p>ARE YOU READY TO VOLUNTEER?</p>
+              </div>
+              <div class="footer-image-parah">
+                <p>
+                  United community contribution is what makes Sakhu Foundation
+                  what it is today! At Sakhu Foundation, we combine hard work
+                  and fun to achieve our goals by affiliating <br />
+                  with individual members of society, fellow organizations/NGOs,
+                  community social workers, students, activists, and corporate
+                  officials to achieve our goals and work in<br />
+                  unity towards our cause. Let us know how you would like to get
+                  involved. Review our website and contact any of our offices if
+                  you are interested. To investigate other <br />
+                  opportunities in Sakhu Foundation, please click below,
+                  complete the form, and submit it. We’ll be in touch shortly.
+                </p>
+              </div>
+              <div class="footer-buttons">
+                <div class="btn button1">Become Volunteer</div>
+                <div class="btn button2 ms-1">Make Donation</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer-image-component -->
+      <!-- Footer-component -->
+      <div class="footer pt-5 ">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-sm-4 col-xs-12">
+              <div class="single_footer">
+                <div class="logo z-0">
+                  <img
+                    src="./Logo/Sakhu Cancer Foundation (2)_page-0001-01 1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="footer-parah">
+                  <p>
+                    Sakhu Cancer Foundation is a non-profit organisation<br />
+                    whose primary concern is to support socio-economically<br />
+                    underprivileged cancer patients with poor access to the
+                    <br />
+                    treatment prescribed to them.
+                  </p>
+                </div>
+                <div class="footer-logos d-flex gap-4">
+                  <div class="whatsapp-logo z-0">
+                    <img src="./Logo/whatsapp.png" alt="" />
+                  </div>
+                  <div class="instagram-logo z-0">
+                    <img src="./Logo/instagram.png" alt="" />
+                  </div>
+                  <div class="twitter-logo z-0">
+                    <img src="./Logo/twitter.png" alt="" />
+                  </div>
+                  <div class="facebook-logo z-0">
+                    <img src="./Logo/facebook.png" alt="" />
+                  </div>
+                  <div class="youtube-logo z-0">
+                    <img src="./Logo/youtube.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="single_footer single_footer_address">
+                <div class="footer-links">
+                  <li class="fl1">
+                    <p>Home</p>
+                  </li>
+                  <li class="fl1">
+                    <p>About Us</p>
+                  </li>
+                  <li class="fl1">
+                    <p>Programs</p>
+                  </li>
+                  <li class="fl1">
+                    <p>News & Events</p>
+                  </li>
+                  <li class="fl1">
+                    <p>Contact</p>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="footer-address-contents">
+                <div class="address">
+                  <p class="bolder">Address</p>
+                  <p class="bold">
+                    Plot No 72, Shakti nagar, Walunj Chh. Sambhajinagar.
+                  </p>
+                </div>
+                <div class="mobile">
+                  <p class="bolder">Mobile No</p>
+                  <p class="bold">9307674533</p>
+                </div>
+                <div class="link">
+                  <div class="bolder">
+                    <p>Link</p>
+                  </div>
+                  <div class="bold">
+                    <p>www.sakhucancerfoundation.org</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer-component -->
+    </div>
+    <!-- all-content-of-volunteer-page -->
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Script -->
+  </body>
+</html>
